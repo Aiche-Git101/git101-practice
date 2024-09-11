@@ -133,3 +133,19 @@ const diffObjs = (v1, v2)=>{
 
     return [ left, right];
 };
+
+/*
+ * @param {array} arr array
+ * @returns {any} last element in array
+ */
+const arr_last = arr => arr[arr.length - 1];
+
+/** adds element to beginning of array and returns the array
+ * @param {element} value 
+ * @param {array} array
+ */
+const prepend = (value, array)=>{
+    let newArray = array.slice();
+    newArray.unshift(value);
+    return newArray;
+}
