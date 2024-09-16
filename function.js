@@ -182,3 +182,10 @@ function array_remove(array, element) {
 function array_remove(array, element) {
     return array.filter(e => e !== element);
 }
+
+/** removes array duplicates
+ 
+@param {array} array
+@return {array}
+*/
+const arr_dedup = arr => arr.filter((item,index) => arr.indexOf(item) === index);
