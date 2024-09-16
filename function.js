@@ -174,3 +174,11 @@ const array_push = (arr,el)=>{
 function array_remove(array, element) {
     return array.filter(e => e !== element);
 }
+
+/** remove an element from array
+ * @param {Array} array
+ * @param {element} element
+ */
+function array_remove(array, element) {
+    return array.filter(e => e !== element);
+}
